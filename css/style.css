@@ -1,0 +1,65 @@
+:root {
+  --highlight: #00A7E1;
+  --light: #FFFCF2;
+  --medium: #CCC5B9;
+  --dark: #403D39;
+  --background:#252422;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: var(--background);
+  color: var(--medium);
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  margin: auto;
+}
+
+
+h1 {
+  font-weight: 100;
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+}
+
+
+.button {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: var(--light);
+  background: var(--dark);
+  border-radius: 1rem;
+  text-decoration: none;
+}
+.button:hover {
+  background: var(--highlight);
+  color: var(--light);
+}
+.button:active {
+  color: var(--highlight);
+  background: #fff;
+}
+
+
+.external-services-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.external-services-list li {
+  list-style: none;
+}
